@@ -1,7 +1,7 @@
 {
-  "name": "Liga-A-start-template",
+  "name": "start-template-gulp-webpack",
   "version": "1.0.0",
-  "description": "Стартовый шаблон сборки Лиги А",
+  "description": "Стартовый шаблон сборки Gulp+Webpack",
   "devDependencies": {
     "@babel/core": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
@@ -28,8 +28,7 @@
     "webpack-stream": "^5.2.1",
     "del": "^4.1.1",
     "gulp-cheerio": "^1.0.0",
-    "gulp-if": "^3.0.0",
-
+    "gulp-if": "^3.0.0"
   },
   "scripts": {
     "editorconfig": "editorconfig-cli",
@@ -55,8 +54,5 @@
   ],
   "engines": {
     "node": "8.15"
-  },
-  "dependencies": {
-
   }
 }
